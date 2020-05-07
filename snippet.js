@@ -1,4 +1,5 @@
 {
+    // vk.com/ecmascript6
     const getTournaments = fetch('https://wotblitz.ru/ru/api/tournaments/')
         .then(x => x.json())
         .then(x => x.results)
